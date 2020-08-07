@@ -78,7 +78,7 @@ public class BitcoinRestService {
         double buyBitfinex_ETH = Double.parseDouble(ETH_Bit.getBid());
 
         String str = "{";
-        if(buyBitcoin_BTC>buyBitfinex_BTC) {
+        if(buyBitcoin_BTC<buyBitfinex_BTC) {
             str += "\"buyExchange_BTC\":\"Bitcoin.com\",";
             str += "\"buy_BTC\":" + buyBitcoin_BTC + ",";
         } else {
@@ -94,7 +94,7 @@ public class BitcoinRestService {
             str += "\"sell_BTC\":" + sellBitfinex_BTC + ",";
         }
 
-        if(buyBitcoin_ETH>buyBitfinex_ETH) {
+        if(buyBitcoin_ETH<buyBitfinex_ETH) {
             str += "\"buyExchange_ETH\":\"Bitcoin.com\",";
             str += "\"buy_ETH\":" + buyBitcoin_ETH + ",";
         } else {
@@ -103,7 +103,7 @@ public class BitcoinRestService {
 
         }
 
-        if(buyBitcoin_ETH>buyBitfinex_ETH) {
+        if(sellBitcoin_ETH>sellBitfinex_ETH) {
             str += "\"sellExchange_ETH\":\"Bitcoin.com\",";
             str += "\"sell_ETH\":" + sellBitcoin_ETH ;
         } else {
