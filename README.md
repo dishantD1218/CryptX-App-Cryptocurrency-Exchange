@@ -29,6 +29,11 @@ React App created using redux, redux-thunk and material-ui
   - http://localhost:3000/
 
 ## BackEnd
+
+Springboot App using Java for creating microservices.
+
+## Installation
+
 1. Make sure you have these installed
   - [java](https://www.oracle.com/java/technologies/javase-downloads.html)
   - [maven](https://maven.apache.org/download.cgi)
@@ -37,6 +42,8 @@ React App created using redux, redux-thunk and material-ui
   - https://github.com/dishantD1218/CryptX-App-Cryptocurrency-Exchange.git
   
 3. Open and run the project backend on your IDE. (Recommended: IntelliJ)
+
+4. Run
 
 ## OR
   
