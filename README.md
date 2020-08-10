@@ -43,7 +43,7 @@ Springboot App using Java for creating microservices.
   
 3. Open and run the project backend on your IDE. (Recommended: IntelliJ)
 
-4. Run
+4. Run CryptXApplication.java
 
 ## OR
   
